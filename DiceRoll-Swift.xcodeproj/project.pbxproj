@@ -11,7 +11,6 @@
 		B1E1A25619D9C8B200F29171 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E1A25519D9C8B200F29171 /* ViewController.swift */; };
 		B1E1A25919D9C8B200F29171 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1E1A25719D9C8B200F29171 /* Main.storyboard */; };
 		B1E1A25B19D9C8B200F29171 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1E1A25A19D9C8B200F29171 /* Images.xcassets */; };
-		B1E1A25E19D9C8B200F29171 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1E1A25C19D9C8B200F29171 /* LaunchScreen.xib */; };
 		B1E1A26A19D9C8B200F29171 /* DiceRoll_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E1A26919D9C8B200F29171 /* DiceRoll_SwiftTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -32,7 +31,6 @@
 		B1E1A25519D9C8B200F29171 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B1E1A25819D9C8B200F29171 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B1E1A25A19D9C8B200F29171 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		B1E1A25D19D9C8B200F29171 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B1E1A26319D9C8B200F29171 /* DiceRoll-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DiceRoll-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1E1A26819D9C8B200F29171 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1E1A26919D9C8B200F29171 /* DiceRoll_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceRoll_SwiftTests.swift; sourceTree = "<group>"; };
@@ -77,11 +75,9 @@
 		B1E1A25019D9C8B200F29171 /* DiceRoll-Swift */ = {
 			isa = PBXGroup;
 			children = (
-				B1E1A25319D9C8B200F29171 /* AppDelegate.swift */,
 				B1E1A25519D9C8B200F29171 /* ViewController.swift */,
 				B1E1A25719D9C8B200F29171 /* Main.storyboard */,
 				B1E1A25A19D9C8B200F29171 /* Images.xcassets */,
-				B1E1A25C19D9C8B200F29171 /* LaunchScreen.xib */,
 				B1E1A25119D9C8B200F29171 /* Supporting Files */,
 			);
 			path = "DiceRoll-Swift";
@@ -90,6 +86,7 @@
 		B1E1A25119D9C8B200F29171 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B1E1A25319D9C8B200F29171 /* AppDelegate.swift */,
 				B1E1A25219D9C8B200F29171 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,7 +190,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1E1A25919D9C8B200F29171 /* Main.storyboard in Resources */,
-				B1E1A25E19D9C8B200F29171 /* LaunchScreen.xib in Resources */,
 				B1E1A25B19D9C8B200F29171 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,14 +238,6 @@
 				B1E1A25819D9C8B200F29171 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B1E1A25C19D9C8B200F29171 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B1E1A25D19D9C8B200F29171 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
