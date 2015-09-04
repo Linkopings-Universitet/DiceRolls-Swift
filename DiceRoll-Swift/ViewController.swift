@@ -54,7 +54,7 @@ class ViewController: UIViewController {
         let dieIndex = Int(arc4random_uniform(6))
         
         // Välj ut vilken bild som ska användas beroende på den framslumpade siffran
-        var imageName:String? = nil
+        let imageName:String?
         switch(dieIndex) {
         case 0:
             imageName = "one"
@@ -69,18 +69,20 @@ class ViewController: UIViewController {
         case 5:
             imageName = "six"
         default:
-            break
+            imageName = nil
         }
         
         // Ladda in bilden som motsvarar den framslumpade tärningen
-        let image = UIImage(named: imageName!)
-        
-        // Uppdatera gränssnittet så att den första tärningen visar bilden
-        dieOne.image = image
-        
-        // Spara undan värdet på tärningen så att användaren enkelt kan spara värdet med
-        // spara-knappen
-        dieValue = dieIndex + 1
+        if let imageName = imageName {
+            let image = UIImage(named: imageName)
+            
+            // Uppdatera gränssnittet så att den första tärningen visar bilden
+            dieOne.image = image
+            
+            // Spara undan värdet på tärningen så att användaren enkelt kan spara värdet med
+            // spara-knappen
+            dieValue = dieIndex + 1
+        }
     }
 
     //--
